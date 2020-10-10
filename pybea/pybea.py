@@ -193,7 +193,7 @@ def get_data(UserID, DataSetName, ResultFormat='JSON', **params):
 
     """
     valid_dataset_names = ['NIPA', 'NIUnderlyingDetail', 'FixedAssets', 'MNE',
-                           'GDPbyIndustry', 'ITA', 'IIP', 'RegionalIncome',
+                           'GDPbyIndustry', 'ITA', 'IIP', 'Regional',
                            'RegionalProduct', 'InputOutput',
                            'UnderlyingGDPbyIndustry', 'IntlServTrade']
     if DataSetName in valid_dataset_names:
