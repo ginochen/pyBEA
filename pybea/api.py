@@ -11,7 +11,7 @@ class Request(dict):
 
     _response = None
 
-    base_url = 'http://www.bea.gov/api/data'
+    base_url = 'https://apps.bea.gov/api/data' #'http://www.bea.gov/api/data'
 
     valid_formats = ['JSON', 'XML']
 
@@ -569,7 +569,7 @@ class RegionalIncomeRequest(DataRequest):
         """
         required_params = {'UserID': UserID,
                            'Method': 'GetData',
-                           'DataSetName': 'RegionalIncome',
+                           'DataSetName': 'Regional',
                            'TableName': TableName,
                            'LineCode': LineCode,
                            'GeoFips': GeoFips,
